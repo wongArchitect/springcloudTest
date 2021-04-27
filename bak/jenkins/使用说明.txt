@@ -1,0 +1,8 @@
+java -jar jenkins.war --httpPort=8080（端口号尽量不修改）
+
+初始密码：C:\Users\jodron\.jenkins\secrets\initialAdminPassword文件中
+
+需要安装Maven，Git等插件，才能和项目关联使用
+
+安装：选择插件安装（即，自定义安装），而不是选择社区安装（会安装太多不需要的）
+卸载：删除war包，删除目录C:\Users\jodron\.jenkins，即删除.jenkins
